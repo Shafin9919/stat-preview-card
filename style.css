@@ -75,7 +75,7 @@ ul{
  
 }
 
-@media screen and (max-width:440px){
+@media screen and (max-width:768px){
   #container {
     width: 50vh;
     height: 90vh;
@@ -141,6 +141,7 @@ ul{
   
 }
 }
+/*
 
 @media screen and (max-width:768px){
     #container {
@@ -182,5 +183,5 @@ ul{
 .stat li{
   font-size: 1rem;
   
-}
+} */
 }
