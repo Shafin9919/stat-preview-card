@@ -4,7 +4,7 @@ body {
 }
 #container{
   width:70vw;
-  height:18vh;
+  /* height:50vh;  */
   display: flex;
   background-color: hsl(244, 38%, 16%);
   margin: 150px auto;
@@ -79,10 +79,10 @@ ul{
 
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:767px){
   #container {
     width: 50vh;
-    height: 90vh;
+    /* height: 90vh; */
     display: flex;
     flex-direction:column-reverse;
     background-color: hsl(244, 38%, 16%);
@@ -91,10 +91,14 @@ ul{
 }
 
 .para {
-  width: 100%;
+  
   color: hsla(0, 0%, 100%, 0.75);
   margin: 0 0 15px 40px;
-
+  font-size: 7px;
+  width:90%;
+  font-size:.7rem;
+  text-align: center;
+  line-height:1.6;
 }
 .box{
   width: 80%;
@@ -102,16 +106,10 @@ ul{
 }
 .header{
   width: 100%;
-  font-size:1rem;
+  font-size:.7rem;
   margin:0 30px;
   text-align: center;
   
-}
-.para{
-  width:90%;
-  font-size:.9rem;
-  text-align: center;
-  line-height:1.6;
 }
 
 .overlay{
@@ -141,17 +139,18 @@ ul{
   
 }
 .stat li{
-  font-size: 1.5rem;
+  font-size: .7rem;
+  margin:0 auto 5px;
   
 }
 }
 
 
 
-@media screen and (max-width:768px){
+@media screen and (min-width:768px) and (max-width:1024px){
     #container {
     width: 95%;
-    height: 60vh;
+    /* height: 60vh; */
     display: flex;
     flex-direction:column-reverse;
     background-color: hsl(244, 38%, 16%);
@@ -167,7 +166,9 @@ ul{
   margin-bottom: 0px;
  
 }
-
+.box{
+  width:90%;
+}
 .image {
   width: inherit;
   height: inherit;
@@ -185,16 +186,18 @@ ul{
 ul{
   display: flex;
   flex-direction: row;
+  justify-content: space-around; 
+ 
 }
 .stat li{
   font-size: 1rem;
   
 } 
-} 
+}  
 
 
 
-
+/* 
 
 @media screen and (max-height:992px){
   #container {
@@ -212,4 +215,4 @@ ul{
 .stat{
   margin-top:40px;
 }
-} 
+}   */
